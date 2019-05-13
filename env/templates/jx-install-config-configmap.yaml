@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAOUmzXusWM8WqsV4WaxSxMQwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMDIxOGY0NTgtYzQ1Zi00NWViLTkzYmEtYjc5ZmNhYmI5OTRk
+    MB4XDTE5MDUxMzA3NTczMFoXDTI0MDUxMTA4NTczMFowLzEtMCsGA1UEAxMkMDIx
+    OGY0NTgtYzQ1Zi00NWViLTkzYmEtYjc5ZmNhYmI5OTRkMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAkBc3Shdprq92ZuxqOGTAaDwoTOb0J26H89lmCNau
+    hmMLMRG9ih5zlxyk0Ozu0M5wbyRXWvdFamcLgddvFlF7hjx4tVBAms4g50ywghhJ
+    5HLb5hUMcsBCb+2gcfoOfC8m3g+P/7ie8zytU53W4sADtTqxgswP4es5KK1P/iGr
+    EUi19lamKXpVyRQuR0BV0Ncghp3VUNdNrfEemG3POfjvPcQ26bdx1q4TU22wI+HM
+    CcfaYYSiZtdLoii/s2eqGjU0qKXkhoP2c4gO8JyU950IM0VEurIi7MvnmHskgh93
+    Ytk183A5B4M1bGoxy1HzrYs50cibyDsBYrKP8lhVTY/5LwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    CCPpsbC9/OVZVTjyD85jkhLrV6ull+5SO/qoP4P5z6dpRCCzbPo5WryCBIV+oru7
+    paCJGeO9v0HT6MmMpekIs7TkfUCyPl8Diugz4vMM+IcqAPEOJE+0p9ELwPqc/yHO
+    HsQ1X2jcUtQe4zcfzCItPd6VzmOSh5eTom3zGSF+bpx133nJgF3qolqGiwID9VDh
+    5yAoqGukyD4h1efI7JctGV4tmU2wmSy6LsudvKvKbelRTw4YM6pZxruYC0o95E3b
+    mxLDnmo6Xkm6Ju5Th08FaljNzj5Xxo6c5FCWYR2xtxP9nNmW5c1OZvOemCSjX0aJ
+    14m8z12wSMdEk5m3T9YfSg==
+    -----END CERTIFICATE-----
+  clusterName: bardgossamer
+  jx-install-version: 2.0.0-dev+7ae4c7079
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.186.98
+  systemVaultName: jx-vault-bardgossamer
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
