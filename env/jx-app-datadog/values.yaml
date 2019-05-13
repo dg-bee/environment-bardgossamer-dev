@@ -1,0 +1,5 @@
+datadog:
+  apiKey: vault:gitOps/dg-bee/environment-bardgossamer-dev/datadog-apikey-secret:token-passthrough
+  logEnabled: true
+  logsConfigContainerCollectAll: true
+  site: datadoghq.com
